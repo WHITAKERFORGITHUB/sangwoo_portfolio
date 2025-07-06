@@ -51,55 +51,57 @@
      <main>
         <!-- Home -->
         <section id="home">
-            <img src="images/sangwoo.png" alt="sangwoo's profile">
-            <h2>Hello I'm Sangwoo</h2>
-            <p>A logistics professional currently working in (주)지오영</p>
-            <a href="#contact">Contact me</a>
+            <img class="home__avatar" src="images/sangwoo.png" alt="sangwoo's profile">
+            <h2 class="home__title">Hello <br/>I&#39;m 
+                <strong class="home__title--strong">Sangwoo Park</strong>
+            </h2>
+            <p class="home__description">A logistics professional currently working in (주)지오영</p>
+            <a class="home__contact" href="#contact">Contact me</a>
         </section>
         <!-- About -->
-        <section id="about">
-            <h2>About me</h2>
-            <p>자신을 어필할 수 있는 문장으로 대체</p>
-            <ul>
-                <li>
-                    <img src="images/global_forwarding.jpeg" alt="">
-                    <p>북미지역 포워딩 업무</p>
-                    <p>html, css, Javascript, typescript, react</p>
+        <section id="about" class="section max-container"> 
+            <h2 class="title">About me</h2>
+            <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum magni debitis, 
+                earum dignissimos voluptatibus eveniet minus corporis laboriosam vitae nemo sapiente provident. 
+                Consequatur eligendi alias saepe, libero quasi quisquam quo.
+            </p>
+            <ul class="majors">
+                <li class="major">
+                    <img class="major__icon" src="images/global_forwarding.jpeg" alt="">
+                    <p class="major__title">북미지역 포워딩 업무</p>
                 </li>
-                <li>
-                    <img src="images/warehouse2.jpeg" alt="">
-                    <img src="images/medical product.jpeg" alt="">
-                    <p>의약품 콜드체인</p>
-                    <p>서류처리능력, 관리자 업무 경험</p>
+                <li class="major">
+                    <img class="major__icon" src="images/warehouse2.jpeg" alt="">
+                    <img class="major__icon" src="images/medical product.jpeg" alt="">
+                    <p class="major__title">의약품 콜드체인</p>
                 </li>
-                <li>
-                    <img src="images/forklift.jpeg" alt="">
-                    <p>물류센터 지게차 업무</p>
-                    <p>지게차 자격증 취득, 숙련 된 지게차 경력자</p>
+                <li class="major">
+                    <img class="major__icon" src="images/forklift.jpeg" alt="">
+                    <p class="major__title">물류센터 지게차 업무</p>
                 </li>
             </ul>
             <!-- 회사리스트 나열 -->
-            <ul>
-                <li>
+            <ul class="jobs">
+                <li class="job">
                     <img src="images/jobs/google.png" alt="google logo">
                     <div>
-                        <p>Google as Senior Software Engineer</p>
-                        <p>2013.03.22 ~ 2015.02.12</p>
+                        <p class="job__name">Google as Senior Software Engineer</p>
+                        <p class="job__period">2013.03.22 ~ 2015.02.12</p>
                     </div>
                 </li>
-                <li>
+                <li class="job">
                     <img src="images/jobs/samsung.png" alt="samsung logo">
                     <div>
-                        <p>삼성바이오로직스 물류센터 관리자</p>
-                        <p>2022.04.12 ~ 2025.05.22</p>
+                        <p class="job__name">삼성바이오로직스 물류센터 관리자</p>
+                        <p class="job__period">2022.04.12 ~ 2025.05.22</p>
                     </div>
                 </li>
             </ul>
         </section>
         <!-- Skills -->
-        <section id="skills">
-            <h2>My Skills</h2>
-            <p>Skills & Attributes</p>
+        <section id="skills" class="section">
+            <h2 class="title">My Skills</h2>
+            <p class="decription">Skills & Attributes</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, assumenda quae quas iusto error ipsum! Sed, hic? 
                 Quisquam odit nihil aliquam. Repellendus optio repudiandae maxime soluta facilis, 
                 similique reprehenderit suscipit?
@@ -167,8 +169,8 @@
 
         </section>
         <!-- Work -->
-        <section id="work">
-            <h2>My career</h2>
+        <section id="work" class="section">
+            <h2 class="title">My work</h2>
             <ul>
                 <li><button>람세스물류</button></li>
                 <li><button>쥴릭파마코리아</button></li>
@@ -216,9 +218,9 @@
             </ul>
         </section>
         <!-- Testimonials -->
-        <section id="testimonial">
-            <h2>Testimonial</h2>
-            <p>See what they say about me</p>
+        <section id="testimonial" class="section">
+            <h2 class="title">Testimonial</h2>
+            <p class="description">See what they say about me</p>
             <ul>
                 <li>
                     <img src="images/testimonials/people1.webp" alt="people1">
@@ -255,9 +257,9 @@
      </main>
 
      <!-- Footer -->
-    <footer id="contact">
-        <h2>Let's talk</h2>
-        <p>bless_sw@hanmail.net</p>
+    <footer id="contact" class="section">
+        <h2 class="title">Let's talk</h2>
+        <p class="description">bless_sw@hanmail.net</p>
         <ul>
             <li>📱 010-1234-5678</li>
             <li>🏠 경기도 고양특례시 일산동구</li>
