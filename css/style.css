@@ -162,6 +162,7 @@ button:focus {
     border-radius: 100px;
     margin: 1rem 0;
     transition: all 300ms ease;
+    padding: 0px 10px;
 }
 .major__title {
     font-size: 1.5rem;
@@ -391,7 +392,7 @@ button:focus {
         align-items: center;
     }
     .major {
-        width: 380px;
+        width: 350px;
     }
     .job {
         justify-content: center;
@@ -404,6 +405,9 @@ button:focus {
     }
     .testimonial:nth-child(even) .testimonial__img {
         order: 0;
+     }
+     .contact__links {
+        flex-direction: column;
      }
      .arrow-up {
         font-size: 2rem;
