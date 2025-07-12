@@ -40,7 +40,8 @@ button {
     border: 0;
 }
 button:focus {
-    outline: 1px solid var(--color-accent); 
+    /* outline: 1px solid var(--color-accent); */
+    outline: 1px solid transparent; 
 }
 
 /* Common */
@@ -91,12 +92,22 @@ button:focus {
 .header__logo__title {
     font-size: 1.8rem;
 }
+.header__toggle {
+    display: none;
+    color: var(--color-white);
+    position: absolute;
+    top: 1.1rem;
+    right: 1rem;
+
+}
 .header__menu {
     display: flex;
     gap: 4px;
 }
 .header__menu__item {
     padding: 8px 16px;
+    display: block;
+    border-bottom: 1px solid transparent;
 }
 .header__menu__item:hover {
     border-bottom: 1px solid var(--color-accent);
@@ -105,6 +116,8 @@ button:focus {
     border: 1px solid var(--color-accent);
     border-radius: 4px;
 }
+
+
 
 /* Home */
 #home {
@@ -342,6 +355,8 @@ button:focus {
     /* border-radius: 100%; */
     text-align: center;
     /* box-shadow: 1px 1px 0px 0px var(--color-accent); */
+    transition: opacity 300ms ease;
+    opacity: 0;
  }
 
  /* Footer */
@@ -365,7 +380,7 @@ button:focus {
 
  @media screen and (max-width: 768px) {
     .section {
-        padding: 3rem 2rem;
+        padding: 4rem 2rem;
     }
     .title {
         font-size: 2rem;
@@ -376,12 +391,20 @@ button:focus {
     .header {
         flex-direction: column;
         align-items: start;
+        background-color: var(--color-primary);
     }
     .header__menu {
+        display: none;
         flex-direction: column;
         text-align: center;
-        padding: 1rem 4rem;
+        margin: 1rem 4rem;
         gap: 1rem
+    }
+    .header__menu.open {
+        display: flex;
+    }
+    .header__toggle {
+        display: block;
     }
     .header__nav {
         width: 100%;
@@ -422,4 +445,9 @@ button:focus {
         bottom: 1.5rem;
         right: 1.5rem;
      }
+     /* hamburger */
+    .hamburger {
+        width:35px;
+        height: 35px;
+    }
  }
