@@ -1,3 +1,4 @@
+'use strict';
 // 헤더의 높이를 알아내보자
 const header = document.querySelector('.header')
 const headerHeight = header.getBoundingClientRect().height;
