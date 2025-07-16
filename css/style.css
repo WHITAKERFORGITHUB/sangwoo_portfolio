@@ -124,12 +124,39 @@ button:focus {
 
 /* Home */
 #home {
+    position: relative;
     background-color: var(--color-primary);
+    background: linear-gradient(
+        180deg,
+        rgba(8,26,60,1) -40%,
+        rgba(5,10,19,1) 100%
+    );
     color: var(--color-text);
     padding: 5rem 1rem;
     padding-top: 7rem;
     text-align: center;
 }
+.custom-shape-divider-bottom-1752627741 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1752627741 svg {
+    position: relative;
+    display: block;
+    width: calc(119% + 1.3px);
+    height: 72px;
+}
+
+.custom-shape-divider-bottom-1752627741 .shape-fill {
+    fill: #FFFFFF;
+}
+
 .home__avatar {
     width: 250px;
     height: 250px;
@@ -213,9 +240,30 @@ button:focus {
 
  /* Skills */
  #skills {
+    position: relative;
     background-color: var(--color-primary-variant);
     color: var(--color-text);
  }
+ .custom-shape-divider-bottom-1752628176 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1752628176 svg {
+    position: relative;
+    display: block;
+    width: calc(144% + 1.3px);
+    height: 39px;
+}
+
+.custom-shape-divider-bottom-1752628176 .shape-fill {
+    fill: #FFFFFF;
+}
  .skills {
     display: grid;
     grid-template-columns: 6fr 4fr;
@@ -366,7 +414,27 @@ button:focus {
  #contact {
     background-color: var(--color-primary);
     color: var(--color-text);
+    position: relative
  }
+ .custom-shape-divider-top-1752629694 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1752629694 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 92px;
+}
+
+.custom-shape-divider-top-1752629694 .shape-fill {
+    fill: #FFFFFF;
+}
  .contact__links {
     display: flex;
     justify-content: center;

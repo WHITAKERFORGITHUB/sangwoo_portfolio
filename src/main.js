@@ -117,3 +117,10 @@ function selectNavItem(index) {
     activeNavItem = navItem;
     activeNavItem.classList.add('active');
 }
+
+// Typeit
+new TypeIt('.home__title--strong') // Sangwoo Park
+.move(-12)
+.go();
+
+document.querySelector('.ti-cursor').remove();
