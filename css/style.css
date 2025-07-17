@@ -496,7 +496,7 @@ button:focus {
         width: 350px;
     }
     .job {
-        justify-content: center;
+        /* justify-content: center; */
     }
     .skills {
         grid-template-columns: 1fr;
