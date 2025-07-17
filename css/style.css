@@ -227,7 +227,7 @@ button:focus {
 .job {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 18px;
     margin-bottom: 1rem;;
 }
 .job__name {
